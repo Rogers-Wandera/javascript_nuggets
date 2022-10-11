@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-design-blocks/2.0.0/css/froala_blocks.min.css"> -->
+    <title>Grading</title>
+</head>
+<body>
+    <div>
+        <!-- Form -->
+        <div class="form">
+            <label for="Student">Student Name</label>
+            <input type="text" id="studentName">
+            <p>Student id is generated automatically</p>
+            <!-- <label for="Student">Student Id</label>
+            <input type="text" disabled id="studentId"> -->
+            <div id="display_sub">
+
+            </div>
+            <div id="model" class="model">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject">
+                <label for="marks">Marks</label>
+                <input type="number" name="number" id="marks">
+                <button id="add_btn" type="button">Add</button>
+            </div>
+            <button type="button" id="add">Enter Students Marks</button> <br>
+            <button id="form-submit" type="button" style="width: 50%;">Add Student</button>
+        </div>
+
+        <div id="display_student">
+        </div>
+
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
